@@ -1,0 +1,21 @@
+server:
+  port: 8001
+  tomcat:
+    max-swallow-size: -1
+  error:
+    include-exception: true
+    include-stacktrace: ALWAYS
+    include-message: ALWAYS
+  servlet:
+    context-path: /
+
+spring:
+  servlet:
+    multipart:
+      max-file-size: 10MB
+      max-request-size: 10MB
+
+baidu:
+  appId: 26017268
+  apiKey: 2yBA2P5GHHvdqQ1e24jmu1hR
+  secretKey: VvLsx8sOXs3niGnxlGI3t8bO6HFtMajN
